@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=LightDM Keyboard Switching Greeter
+Comment=This runs a GTK based greeter, it should only be run from LightDM
+Exec=lightdm-kbswitch-greeter
+Type=Application
+X-Ubuntu-Gettext-Domain=lightdm

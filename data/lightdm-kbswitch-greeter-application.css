@@ -1,0 +1,17 @@
+.dialog-box {
+    background-color: @theme_bg_color;
+    border-style: solid;
+    border-color: darker(@theme_bg_color);
+    border-width: 2px;
+    border-radius: 2px;
+}
+
+#hostname-label {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#clock-label {
+    font-weight: bold;
+    font-size: 150%;
+}
