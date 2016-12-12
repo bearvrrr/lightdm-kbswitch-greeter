@@ -35,17 +35,11 @@ setup(
         author_email='andrew.bates@cantab.net',
         license='GPL',
         packages=[PACKAGE_NAME],
-        install_requires=['gi'],
         data_files=[ # icons, *ui and *css files are detected automatcially
             ('/etc/lightdm', ['data/configs/lightdm-kbswitch-greeter.conf']),
             ('/usr/share/xgreeters', [
                 'data/configs/lightdm-kbswitch-greeter.desktop'
                 ]
             )
-        ],
-        entry_points={
-            'console_scripts': [
-                '{}={}.greeter:run'.format(name, PACKAGE_NAME)
-            ],
-        }
+        ]
 )
